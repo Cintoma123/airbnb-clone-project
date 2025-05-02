@@ -132,16 +132,16 @@ Handles secure payment processing for bookings. It ensures that users are charge
 To ensure the Airbnb Clone application is secure and protects sensitive user data, the following key security measures will be implemented:
 
 Key Security Measures:
-  1.Authentication: Only registered users can access protected routes using secure token-based authentication (e.g., JWT).
-  2.Authorization: Role-based access control to ensure only authorized users (e.g., hosts or admins) can perform certain actions like deleting a property.
-  3.Rate Limiting: Limits the number of API requests from a single IP to prevent abuse and brute-force attacks.
-  4.input Validation: Prevents injection attacks and data tampering by sanitizing and validating user inputs.
-  5.Data Encryption: Ensures data transmitted between client and server is encrypted using HTTPS.
+  Authentication: Only registered users can access protected routes using secure token-based authentication (e.g., JWT).
+  Authorization: Role-based access control to ensure only authorized users (e.g., hosts or admins) can perform certain actions like deleting a property.
+  Rate Limiting: Limits the number of API requests from a single IP to prevent abuse and brute-force attacks.
+  input Validation: Prevents injection attacks and data tampering by sanitizing and validating user inputs.
+  Data Encryption: Ensures data transmitted between client and server is encrypted using HTTPS.
   
 Importance of API Security:
-1.API security is crucial in this project to:
-2.Protect user data such as emails, passwords, and payment details.
-3.Secure payment transactions and prevent unauthorized charges.
-4.Maintain trust by ensuring that only verified users can interact with core services like bookings and reviews.
+API security is crucial in this project to:
+Protect user data such as emails, passwords, and payment details.
+Secure payment transactions and prevent unauthorized charges.
+Maintain trust by ensuring that only verified users can interact with core services like bookings and reviews.
 
 
