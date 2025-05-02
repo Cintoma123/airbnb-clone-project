@@ -46,3 +46,66 @@ A POST request creates a new record.
 
 MySQL : is an open source relational database management system (RDBMS) that's used to store and manage data. 
 Its reliability, performance, scalability, and ease of use make MySQL a popular choice for developers.
+
+# Database Design
+The key entities required for the project includes:
+Users
+Properties 
+Bookings 
+Reviews
+and Payments.
+
+ Database Design
+
+Users:
+Fields:
+   id (Primary Key)
+   name
+   email
+   password
+   created_at
+  Relationships:
+   A user can own multiple properties.
+   A user can make multiple bookings.
+   A user can leave reviews on properties.
+
+ Properties:
+ Fields:
+   id (Primary Key)
+   title
+   location
+   price_per_night
+   owner_id (Foreign Key referencing Users)
+Relationships:
+   A property is owned by one user.
+   A property can have multiple bookings.
+   A property can receive multiple reviews.
+   
+ Bookings
+Fields:
+   id (Primary Key)
+   user_id (Foreign Key referencing Users)
+   property_id (Foreign Key referencing Properties)
+   start_date
+   end_date
+Relationships:
+A booking is made by one user for one property.
+
+ Reviews
+Fields:
+   id (Primary Key)
+   user_id (Foreign Key referencing Users)
+   property_id (Foreign Key referencing Properties)
+   rating
+   comment
+   Relationships:
+   
+Payments
+Fields:
+   id (Primary Key)
+   user_id (Foreign Key)
+   booking_id (Foreign Key)
+   amount
+   status
+  Relationships:
+ A payment is made by a user for a booking.
