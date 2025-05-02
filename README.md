@@ -109,3 +109,20 @@ Fields:
    status
   Relationships:
  A payment is made by a user for a booking.
+
+ # Feature Breakdown
+
+1. User Management
+This feature handles user registration, login, and profile updates. It ensures secure access to the platform and stores personal user information for booking and reviewing properties.
+
+2. Property Management
+Allows hosts to list their properties, upload descriptions and images, and set availability and pricing. This is a core feature that drives the rental offerings of the application.
+
+3. Booking System
+Enables users to book available properties for selected dates. It manages conflicts in booking times and ensures payment is tied to a valid reservation.
+
+4. Review System
+Users can leave reviews and rate properties they’ve stayed in. This promotes transparency and helps other users make informed decisions based on past guest experiences.
+
+5. Payment Integration
+Handles secure payment processing for bookings. It ensures that users are charged correctly and that hosts receive payments based on booking agreements.
