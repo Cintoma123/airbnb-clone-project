@@ -1,6 +1,6 @@
 # airbnb-clone-project
 An airbnb clone built for learning software enginnering
-# Teams Roles
+# Team Roles
 Software developer :
 Engineers and stabilizes the product
 Solves any technical problems emerging during the development lifecycle
